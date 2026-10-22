@@ -106,7 +106,7 @@ async function searchLocations(city) {
     });
 
     message.textContent =
-      `${data.results.length} matching location(s) found. Select one.`;
+      `${data.results.length} matching locations found. Select one.`;
 
   } catch (error) {
     message.textContent = error.message;
