@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+   <body>
+  <main class="weather-container">
+
+    <header class="header">
+      <h1>Weather Now</h1>
+      <p>Your daily weather companion</p>
+    </header>
+    <div class="date-time">
+  <p id="current-date"></p>
+  <p id="current-time"></p>
+</div>
+
+    <form id="search-form" class="search-form">
+      <input
+        type="text"
+        id="city-input"
+        placeholder="Enter city name"
+        value="Amravati"
+        required
+      >
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="message" role="status">Loading weather...</p>
+    <div id="location-results" class="location-results"></div>
+
+    <section id="weather-card" class="weather-card" hidden>
+      <h2 id="city-name">Amravati</h2>
+      <p id="weather-description">Weather condition</p>
+
+      <img id="weather-icon" src="" alt="Weather icon">
+
+      <p class="temperature">
+        <span id="temperature">--</span>°C
+      </p>
+
+      <p id="feels-like">Feels like --°C</p>
+
+      <div class="weather-details">
+        <div class="detail">
+          <span>💧 Humidity</span>
+          <strong id="humidity">--%</strong>
+        </div>
+
+        <div class="detail">
+          <span>💨 Wind speed</span>
+          <strong id="wind-speed">-- km/h</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Built while learning JavaScript 🌦️</p>
+    </footer>
+
+  </main>
+    
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
