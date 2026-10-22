@@ -1,50 +1,60 @@
 # 🌦️ Amravati Weather App
 
-A simple and responsive weather application built using **HTML, CSS, and JavaScript**. This project helps users search for locations in India and check their current weather conditions using the Open-Meteo API.
+A responsive weather application built using **HTML, CSS, and JavaScript**. It allows users to search for locations in India and view current weather information using the Open-Meteo API.
+
+## 📸 Screenshots
+
+### User Interface
+![Weather App UI](assets/ui.png)
+
+### API Response
+![Weather API Response](assets/response.png)
+
+### Weather Results
+![Weather Results](assets/result.png)
 
 ## ✨ Features
 
 - 🔍 Search for locations by name
-- 📍 View matching locations and select the correct one
-- 🌡️ Display current temperature
-- 🤗 Show feels-like temperature
-- 💧 Display relative humidity
-- 💨 Show wind speed
+- 📍 Display matching locations for selection
+- 🌡️ View current temperature and feels-like temperature
+- 💧 Check humidity and wind speed
 - 🌤️ Display weather conditions with icons
+- 🕒 Show the current date and live time
 - 📱 Responsive user interface
 - ⚠️ Handle invalid locations and API errors
 
 ## 🛠️ Technologies Used
 
-- **HTML5** — Structure of the application
+- **HTML5** — Website structure
 - **CSS3** — Styling and responsive layout
-- **JavaScript** — Application logic, DOM manipulation, event handling, and asynchronous operations
-- **Open-Meteo API** — Location search and weather data
+- **JavaScript** — Application logic and DOM manipulation
+- **Open-Meteo API** — Geocoding and weather data
 
 ## 📚 What I Learned
 
-While building this project, I practised:
+Building this project helped me practise:
 
 - JavaScript variables, functions, objects, and arrays
 - DOM manipulation and event listeners
-- Handling form submissions and user input
-- Using `fetch()`, `async/await`, and JSON responses
-- Working with external APIs
-- Handling errors using `try...catch`
-- Creating HTML elements dynamically with JavaScript
-- Styling layouts using CSS Grid and responsive media queries
+- Form handling and user input validation
+- Fetching API data using `fetch()`
+- Asynchronous JavaScript with `async/await`
+- Working with JSON responses
+- Error handling using `try...catch`
+- Creating HTML elements dynamically
+- CSS Grid, responsive design, and styling
+ 
+## 🌐 API
 
-
-## 🌐 API Used
-
-This project uses [Open-Meteo](https://open-meteo.com/), a weather API that provides weather forecasts and geocoding services.
+This project uses [Open-Meteo](https://open-meteo.com/) for location search and weather data.
 
 No API key is required for the public API usage in this project.
 
 ## 🎯 Project Goal
 
-The goal of this project is to strengthen my understanding of JavaScript fundamentals by building a practical web application that retrieves and displays real-world data.
+This project was created to strengthen my JavaScript fundamentals by building a practical web application that retrieves and displays real-world data.
 
 ## 📄 License
 
-This project is open for learning and educational purposes.
+Created for learning and educational purposes.
