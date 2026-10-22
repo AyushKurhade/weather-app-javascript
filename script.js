@@ -196,7 +196,7 @@ searchForm.addEventListener("submit", (event) => {
 // Load Amravati weather on startup
 searchLocations("Amravati");
 function updateDateTime() {
-  const now = new Date();git 
+  const now = new Date();
 
   document.getElementById("current-date").textContent =
     now.toLocaleDateString("en-IN", {
